@@ -1,0 +1,49 @@
+.tb{
+    display: flex;
+    justify-content: center;
+}
+
+.carImage{
+    width:380px;
+}
+
+table{
+    table-layout: fixed;
+    border: 2px solid #222;
+    border-collapse: collapse;
+    letter-spacing: 2px;
+    font-family: "Rock Salt", helvetica neue, sans-serif;
+    font-size: 1.3rem;
+    width: 75%;
+}
+
+th, td{
+    border: 1px solid #a4a4a4;
+    padding: 10px 20px;
+}
+
+thead th:nth-child(1), th:nth-child(2), thead th:nth-child(3){
+    width: 180px;
+}
+
+
+
+td{
+    text-align: center;
+}
+
+tbody{
+    font-size: 1.0rem;
+    font-style: italic;
+}
+
+tfoot{
+    font-size: 1.0rem;
+    font-weight: bold;
+}
+
+
+caption{
+    padding:15px;
+    caption-side: top;
+}

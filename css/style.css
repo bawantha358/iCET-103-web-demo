@@ -1,0 +1,48 @@
+
+input{
+    padding:15px;
+  }
+
+  input::placeholder{
+    padding-left: 5px;
+    color:green;
+  }
+
+  input:focus::-webkit-input-placeholder {
+      color:yellow;
+  }
+
+  input:focus{
+    background-color:green;
+    color:white;
+  }
+
+  .btn{
+    padding:5px 15px; 
+    background-color:black; 
+    color:white; 
+    border-radius:5px;
+  }
+
+  .btn:hover{
+    background-color: white;
+    color:black;
+  }
+  
+  .btn::after{
+    content: "------";
+    background-color: red;
+  }
+
+  .heading{
+    text-decoration:underline;
+    background-color:yellow;
+    color:blue;
+    text-align: center;
+    padding: 10px;
+  }
+
+  #input{
+    border:1px solid green; 
+    border-radius: 100px;
+  }
