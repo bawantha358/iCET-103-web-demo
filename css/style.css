@@ -1,6 +1,12 @@
 
+
+#file{
+  margin: 5px 50% 5px 44%;
+}
+
 input{
     padding:15px;
+    margin: 5px 50% 5px 44%;
   }
 
   input::placeholder{
@@ -17,22 +23,19 @@ input{
     color:white;
   }
 
-  .btn{
-    padding:5px 15px; 
+  #btn{
+    padding:10px 53px; 
+    margin: 5px 50px 5px 45%;
     background-color:black; 
     color:white; 
     border-radius:5px;
   }
 
-  .btn:hover{
+  #btn:hover{
     background-color: white;
     color:black;
   }
   
-  .btn::after{
-    content: "------";
-    background-color: red;
-  }
 
   .heading{
     text-decoration:underline;
@@ -46,3 +49,142 @@ input{
     border:1px solid green; 
     border-radius: 100px;
   }
+
+  .div_center{
+    width:100%;
+  }
+
+  .div_center p{
+    margin: 5px 5px 5px 47%;
+  }
+
+  .green{
+    width:150px;
+    height:150px;
+    background-color: rgb(34, 220, 136);
+    position: absolute;
+    left: 329px;
+    top: 209px;
+    z-index: -1;
+  }
+
+  .red{
+    width:150px;
+    height:150px;
+    background-color: rgb(73, 94, 236);
+    position: absolute;
+    left: 300px;
+    top: 190px;
+    z-index: -1;
+  }
+
+  .fixed{
+    width: 55px;
+    height: 55px;
+    background-color: red;
+    position: fixed;
+    top:155px;
+    left:90%;
+    z-index:1000;
+  }
+
+  nav{
+    position:relative;
+    left: 80%;
+  }
+
+  ul{
+    list-style: none;
+  }
+
+  li{
+    padding:15px;
+  }
+
+  .navbar{
+    width: 100vw;
+    height: 35px;
+    position:sticky;
+    top:15px;
+    background-color: rgb(21, 99, 125);
+    color:white;
+  }
+
+  .lore{
+    margin:5px 15px;
+  }
+
+  .post{
+    display: flex;
+  }
+
+  .dropcenter{
+      position: relative;
+      left:350px;
+  }
+
+  .carousel-size{
+      width: 350px;
+  }
+
+  #card1, #card2{
+    margin:5px 15px;
+  }
+
+  .lore button{
+    display: block;
+    margin:15px 45px;
+  }
+
+  
+
+/*
+
+    -webkit-animation: 1.5s linear 0s infinite normal forwards gwd-gen-zx26gwdanimation_gwd-keyframes;
+
+  0% {
+    transform: translate3d(-173px, -156px, 0) rotateZ(-17deg) scale3d(-0.019, -0.019, -0.019);
+    -webkit-transform: translate3d(-173px, -156px, 0) rotateZ(285deg) scale3d(-0.019, -0.019, -0.019);
+    -moz-transform: translate3d(-173px, -156px, 0) rotateZ(-17deg) scale3d(-0.019, -0.019, -0.019);
+    opacity: 0;
+    animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+13.3333% {
+    transform: translate3d(-173px, -156px, 0) rotateZ(0deg) scale3d(.17, .17, .17);
+    -webkit-transform: translate3d(-173px, -156px, 0) rotateZ(0deg) scale3d(.17, .17, .17);
+    -moz-transform: translate3d(-173px, -156px, 0) rotateZ(0deg) scale3d(.17, .17, .17);
+    opacity: 1;
+    animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+20% {
+    transform: translate3d(-173px, -156px, 0) rotateZ(0deg) scale3d(.16, .16, .16);
+    -webkit-transform: translate3d(-173px, -156px, 0) rotateZ(0deg) scale3d(.16, .16, .16);
+    -moz-transform: translate3d(-173px, -156px, 0) rotateZ(0deg) scale3d(.16, .16, .16);
+    opacity: 1;
+    animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+26.6667% {
+    transform: translate3d(-173px, -156px, 0) rotateZ(0deg) scale3d(.17, .17, .17);
+    -webkit-transform: translate3d(-173px, -156px, 0) rotateZ(0deg) scale3d(.17, .17, .17);
+    -moz-transform: translate3d(-173px, -156px, 0) rotateZ(0deg) scale3d(.17, .17, .17);
+    opacity: 1;
+    animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+100% {
+    transform: translate3d(-173px, -156px, 0) rotateZ(0deg) scale3d(.17, .17, .17);
+    -webkit-transform: translate3d(-173px, -156px, 0) rotateZ(0deg) scale3d(.17, .17, .17);
+    -moz-transform: translate3d(-173px, -156px, 0) rotateZ(0deg) scale3d(.17, .17, .17);
+    opacity: 1;
+    animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+*/
